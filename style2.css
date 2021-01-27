@@ -1,0 +1,165 @@
+body {
+    background-color: #e0e0e0 !important;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    margin: 20px 0 30px 0;
+    width: 25% !important;
+  }
+  * {
+    margin: 0;
+  }
+  .site {
+    width: 100%;
+  }
+  .header {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #343a40!important;
+    width: 100%;
+    height: 50px;
+    color: #e0e0e0;
+  }
+  .logo {
+    margin: 0.6% 0 0 0;
+    font-size: 20px;
+  }
+  .header-menu li {
+    display: inline-block;
+    margin: 2.5% 0 0 15px;
+  }
+  .header-menu li a {
+    color: #e0e0e0;
+    text-decoration: none;
+  }
+  .header-menu li a:hover {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .logo {
+    position: relative;
+    left: 5%;
+  }
+  form {
+    background: #e0e0e0;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+    padding: 20px 10px;
+  }
+  
+  .btn-top {
+    margin-top: 10px;
+    margin-left: 33%;
+    border: 0px;
+    padding: 5px 15px;
+    color: #e0e0e0;
+    font-size: 13px;
+    background: #7aa798;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  .btn-top:hover {
+    background: #8abeae;
+  }
+  
+  #task {
+    width: 60%;
+    float: left;
+    margin-right: 5%;
+  }
+  .list-information ul {
+    padding: 0 10px !important;
+  }
+  .list-information ul li {
+    list-style: none;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #e0e0e0;
+    border: 1px solid silver;
+    border-radius: 5px;
+  }
+  .list-information ul li:hover {
+    background: #e5e5e5;
+  }
+  .list-information ul li button {
+    border: 0px;
+    padding: 5px 15px;
+    color: #e0e0e0;
+    font-size: 13px;
+    background: #7bbeaa;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  .list-information li button:hover {
+    background: #7aa798;
+  }
+  
+  .list-information {
+    position: absolute;
+    left: 30%;
+    width: 100%;
+    text-align: center;
+  }
+  .list-information li {
+    width: 40%;
+  }
+  .text-span-left {
+    left: 1.5%;
+  }
+  
+  .id ul {
+    width: 300px;
+  }
+  
+  ul hr {
+    width: 300px;
+  }
+  
+  .id {
+    width: 300px;
+    height: 350px;
+    margin-left: 17%;
+    margin-top: -370px;
+  }
+  
+  li hr {
+    width: 1000px;
+  }
+  
+  .id-sale {
+    width: 300px;
+    margin-left: -99%;
+    margin-top: -250px;
+    margin-bottom: 160px;
+  }
+  li 
+  {
+    list-style: none;
+  }
+  .table-info li
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .table-info
+  {
+  background-color: #e0e0e0 !important; 
+  border-radius: 5px;
+  }
+  .conteiner
+  {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20 px;
+  }
+  .btn-top
+  {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }

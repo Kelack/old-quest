@@ -1,0 +1,357 @@
+*{
+  font-size: 16px;
+}
+body
+{
+  background-color: #6e6e6e;
+}
+
+a:hover,a:focus{
+  outline: none;
+  text-decoration: none;
+ }
+ .tab{
+  background: #200122;
+  background: -webkit-linear-gradient(to bottom, #6f0000, #200122);
+  background: linear-gradient(to bottom, #6f0000, #200122);
+  padding: 40px 50px;
+  position: relative;
+ }
+ .tab:before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(#6b6b6d,#1c0829);
+  opacity: 0.85;
+ }
+ .tab .nav-tabs{
+  border-bottom: none;
+  padding: 0 20px;
+  position: relative;
+ }
+ .tab .nav-tabs li{ margin: 0 30px 0 0; }
+ .tab .nav-tabs li a{
+  font-size: 18px;
+  color: #fff;
+  border-radius: 0;
+  text-transform: uppercase;
+  background: transparent;
+  padding: 0;
+  margin-right: 0;
+  border: none;
+  border-bottom: 2px solid transparent;
+  opacity: 0.5;
+  position: relative;
+  transition: all 0.5s ease 0s;
+ }
+ .tab .nav-tabs li a:hover{ background: transparent; }
+ .tab .nav-tabs li.active a,
+ .tab .nav-tabs li.active a:focus,
+ .tab .nav-tabs li.active a:hover{
+  border: none;
+  background: transparent;
+  opacity: 1;
+  border-bottom: 2px solid #ffffff;
+  color: #fff;
+ }
+ .tab .tab-content{
+  padding: 20px 0 0 0;
+  margin-top: 40px;
+  background: transparent;
+  z-index: 1;
+  position: relative;
+ }
+ .form-bg{ background: rgba(221, 221, 221, 0.945); }
+ .form-horizontal .form-group{
+  margin: 0 0 15px 0;
+  position: relative;
+ }
+ .form-horizontal .form-control{
+  height: 40px;
+  background: rgba(90, 87, 87, 0.5);
+  border: none;
+  border-radius: 20px;
+  box-shadow: none;
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+ }
+ .form-horizontal .form-group label{
+  padding: 0 20px;
+  color: #e4e4e4;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+ }
+ .form-horizontal .main-checkbox{
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  float: left;
+  margin: 5px 0 0 20px;
+  border: 1px solid #ffffff;
+  position: relative;
+ }
+ .form-horizontal .main-checkbox label{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+ }
+ .form-horizontal .main-checkbox label:after{
+  content: "";
+  width: 10px;
+  height: 5px;
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  border: 3px solid #fff;
+  border-top: none;
+  border-right: none;
+  background: transparent;
+  opacity: 0;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+ }
+ .form-horizontal .main-checkbox input[type=checkbox]{ visibility: hidden; }
+ .form-horizontal .main-checkbox input[type=checkbox]:checked + label:after{ opacity: 1; }
+ .form-horizontal .text{
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 7px;
+  line-height: 20px;
+  padding-top: 5px;
+  text-transform: capitalize;
+ }
+ .form-horizontal .btn{
+  width: 100%;
+  background:  rgba(90, 87, 87, 0.5);
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 20px;
+  text-transform: uppercase;
+  margin: 20px 0 30px 0;
+ }
+ .form-horizontal .btn:focus{
+  background: #000000;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+ }
+ .form-horizontal .forgot-pass{
+  border-top: 1px solid #615f6c;
+  margin: 0;
+  text-align: center;
+ }
+ .form-horizontal .forgot-pass .btn{
+  width: auto;
+  background: transparent;
+  margin: 30px 0 0 0;
+  color: #615f6c;
+  text-transform: capitalize;
+  transition: all 0.3s ease 0s;
+ }
+ .form-horizontal .forgot-pass .btn:hover{ color: #000000; }
+ @media only screen and (max-width: 479px){
+  .tab{ padding: 40px 20px; }
+ }
+
+ .tabpanel
+ {
+   display: none;
+ }
+ .right
+ {
+   margin-left: 79%;
+ }
+ .right2
+ {
+   margin-left: 60%;
+ }
+ .mr-sm-2
+ {
+  padding: 0 60px 0 0;
+  font-size: 16px;
+ }
+
+
+ .finder
+ {
+   position: absolute;
+   margin-top: -82px;
+   margin-left: 200px;
+ }
+ .viberite
+ {
+   color: white;
+   margin-left: 500 px;
+ }
+ .close
+ {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  margin-left: 200px;
+  margin-top: -30px;
+ }
+
+  .conteiner
+  {
+    position: relative;
+    width: 1500px;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 20 px;
+  }
+
+  A {
+    color: #b1b1b1; /* Цвет ссылок */
+   }
+   A:visited {
+    color: #383838; /* Цвет посещенных ссылок */
+   }
+   A:active {
+    color: #b1b1b1; /* Цвет активных ссылок */
+   }
+  .titleQuest{
+    font-size: 18px;
+    color: wheat;
+  }
+  .modal-quest
+  {
+    position: absolute;
+    background: rgba(5,10,30,0.5);
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 10000;
+    top: 0;
+  }
+  .style
+  {
+    padding-top: 50px;
+  }
+  .block-post
+  {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  }
+  .link {
+    width: 474px; /* Ширина слоя */
+    height: 175px; /* Высота слоя */
+   }
+   .link a {
+    display: block; /* Ссылка как блочный элемент */
+    text-align: center; /* Выравнивание по центру */
+    height: 100%; /* Высота на весь слой */
+    color: #666; /* Цвет ссылки */
+   }
+   @import url('https://fonts.googleapis.com/css?family=Roboto|Suez+One');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #636363;
+  font-family: Trebuchet MS, Helvetica;
+}
+
+/* Шапка сайта */
+
+header {
+  width: 100%;
+  padding: 10px 0.5% 0px 0.5%;
+  background: transparent;
+  float: left;
+  position: fixed;
+}
+
+header #logo {
+  color: #fff;
+  cursor: pointer;
+}
+
+header #logo span {
+  font-size: 1.7em;
+  line-height: 45px;
+  margin-left: 40px;
+  font-family: 'Suez One', serif;
+}
+
+
+
+/* Блок с преимуществами */
+
+#overview {
+  float: left;
+
+  background-blend-mode: multiply;
+  background-color: #403f40;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 100px 0;
+  width: 100%;
+  text-align: center;
+  color: rgb(124, 124, 124);
+}
+
+#overview h2 {font-size: 4em}
+#overview h4 {color: #ccc; font-size: 1.5em}
+
+@media (min-width: 561px) {
+  #overview h2 {font-size: 4em}
+}
+
+@media (max-width: 560px) {
+  #overview h2 {font-size: 2em}
+}
+
+#overview .img {
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+  margin-top: 50px;
+}
+
+#overview .img:nth-child(odd) {
+  margin-left: 18%;
+}
+
+
+#overview span {
+  float: left;
+  width: 100%;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+@media (max-width: 700px) {
+  #overview .img {
+    width: 80%!important;
+    margin-right: 0!important;
+    margin-left: 10%!important;
+  }
+}
+
+
+
