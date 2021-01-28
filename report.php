@@ -34,13 +34,14 @@
         <div class="logo">
             <a href="index.php" style="color: white;">Отчет</a>
         </div>
-        <div class="header-menu" style="margin-left: -40px;">
-            <ul class="">
+        <div class="header-menu" style="margin-left: 200px;">
+            <ul class="" >
                 <li><a href="booking.php">Бронирование</a></li>
                 <li><a href="customer.php">Пользователь</a></li>
                 <li><a href="inf_quest.php">Информация о квесте</a></li>
                 <li><a href="quest.php">Квест</a></li>
                 <li><a href="report.php">Отчет</a></li>
+                <li><a href="top.php">Топы</a></li>
             </ul>
         </div>
     </div>
